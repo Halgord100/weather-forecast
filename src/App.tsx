@@ -30,6 +30,7 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [isRaining, setIsRaining] = useState<boolean>(false);
 
+  // Temporarily hardcoded API key for deployment
   const API_KEY = 'fd8e3158ac8f444dfc6dee363bc4afa3';
   
   const fetchWeather = async (cityName: string) => {
